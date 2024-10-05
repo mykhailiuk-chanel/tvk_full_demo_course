@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="100" alt="Nest Logo" /></a>
 </p>
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
@@ -7,67 +7,86 @@
 
   <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
     <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
+
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## General Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
+## My FULL DEMO COURSE Description
+
+Brick by brick instruction: RESTful APIs with Node.js, Sequelize, TypeScript, and Mysql. Learn to efficiently manage App server side.
+!!!_(If you want to work only with server logic, you can switch to "backend" branch and run the server separately)_
+
+To start the server part of the application, you need to perform the following steps:
+
+### 1. Installation of all necessary packages
+
+Command for instalation packages
 
 ```bash
 $ npm install
 ```
+### 2. Server Configuration Guide
 
-## Running the app
+Follow these steps to set up your server configuration:
+
+#### Step 1: Copy the Configuration Template file
+
+1. **Locate the Template File**
+
+   Find the file named `.env-example.txt` in the backend/ directoryt.
+
+2. **Create a Copy**
+
+   Make a copy of `.env-example.txt` and rename it to `.env`.
+
+#### Step 2: Update Configuration Values
+
+1. **Open `config.json`**
+
+   Find and replace all config DB/App placeholder values using you local/remote.
+
+2. **Ensure Database is Running**
+
+   Confirm that your database server is up and running
+
+### 3 Running the app
+
+Prefer dev mode for the debaging/developing
+
+```bash
+# watch mode
+$ npm run start:dev
+```
+
+**If you did everything correctly, you should see a log about "successful server start" as in the screenshot**
+<p align="center">
+  <img src="./docs/images/server-log.png" width="600" alt="FULL Demo Course" />
+</p>
+
+- URL: [http://localhost:3053/](http://localhost:3053/)
+_(based on the PORT env from the env file)_
+
+If u want to start server in PROD mode 
 
 ```bash
 # development
 $ npm run start
 
-# watch mode
-$ npm run start:dev
-
 # production mode
 $ npm run start:prod
 ```
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Stay in touch
+
+Feel free to explore the project, contribute, or reach out if you have any questions. Happy studying!
+
+- Author - [Senior AQA: Mykhailiuk Vitaliy](vmykhailiuk.chanel@gmail.com)
+
