@@ -39,8 +39,8 @@ export const databaseProviders = [
           User
         ]);
   
-        // await sequelize.sync({ force: true }); //TODO: only for testing - When your application starts up, this deletes all tables including the data in them, and recreate them from scratch
-        await sequelize.sync(); //TODO: This only creates new tables that don’t exist and if an existing table has changed it won’t update it. This is not recommended for production but it is suitable for development
+        await sequelize.sync({ force: true }); //TODO: only for testing - When your application starts up, this deletes all tables including the data in them, and recreate them from scratch
+        // await sequelize.sync(); //TODO: This only creates new tables that don’t exist and if an existing table has changed it won’t update it. This is not recommended for production but it is suitable for development
         return sequelize;
       },
     },
